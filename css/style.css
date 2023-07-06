@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    margin-left: -10px;
+}
+
+.menu{
+    margin-left: 950px;
+    border: 1px solid (151, 151, 151);
+}
+
+.contenedor1{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(24, 24, 24);
+    background-color: white;
+    text-align: center;
+    width: 99%;
+    margin-top: 150px;
+}
+
+.contenedor1 h1{
+    font-size: xx-large;
+}
+
+.contenedor1 p{
+    font-size: x-large;
+    width: 550px;
+    margin: 20px;
+    margin-left: 27%;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.buttom1{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(50, 87, 255);
+    border-radius: 10px;
+    font-size: x-large;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttom2{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(85, 85, 85);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.boxes{
+    margin-top: 100px;
+    color: black;
+    width: 99%;
+    height: 1650px;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content:space-around;
+}
+
+.box{
+    border: 1px solid black;
+    background-color: rgb(219, 219, 219);
+    width: 350px;
+    text-align:center;
+    height: 400px;
+    font-size:medium;
+    margin: 20px 60px 20px 60px;
+}
+
+.buttoms{
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.view{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.edit{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.mins{
+    display: flex;
+    text-align:right;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    font-size: large;
+    padding: 50px;
+    display: flex;
+}
+
+footer a{
+    color: rgb(50, 87, 255);
+}
+
